@@ -1,3 +1,6 @@
+/*
+Create a Thread using the Runnable interface and print Thread name
+*/
 class MyThread implements Runnable{
 	public void run(){
 		System.out.println(Thread.currentThread().getName());
